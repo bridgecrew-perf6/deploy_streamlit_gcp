@@ -1,0 +1,8 @@
+#python environment
+myenv/
+
+#very important to ignore any credentials
+*.json
+
+#misc
+.DS_Store
