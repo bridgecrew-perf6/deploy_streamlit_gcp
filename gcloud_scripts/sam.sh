@@ -1,8 +1,8 @@
 
 #current project (insert your project name here)
-PROJECT_ID="food-classifer-example3"
-BUCKET="my_bucketey_bucket"
-SERVICE_ACCOUNT="nn-developer-account2"
+PROJECT_ID="food-classifier-example4"
+BUCKET="my_bucketey_bucket3"
+SERVICE_ACCOUNT="nn-developer-account3"
 EMAIL="${SERVICE_ACCOUNT}@${PROJECT_ID}.iam.gserviceaccount.com"
 KEY_PATH="app_code"
 

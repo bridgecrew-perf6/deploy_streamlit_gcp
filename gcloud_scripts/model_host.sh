@@ -1,9 +1,9 @@
 # Host model saved in Google Storage bucket on AI Platform
 
 # replace with your project and bucket name
-PROJECT_ID="food-classifer-example3"
-BUCKET="my_bucketey_bucket"
-MODEL_NAME="classifier_model"
+PROJECT_ID="food-classifier-example4"
+BUCKET="my_bucketey_bucket3"
+MODEL_NAME="classifier_model1"
 MODEL_VERSION='v01'
 
 #login to a cloud account - brings up login prompt in browser
