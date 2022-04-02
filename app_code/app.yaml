@@ -1,0 +1,3 @@
+# build custom container around app_code
+runtime: custom
+env: flex
