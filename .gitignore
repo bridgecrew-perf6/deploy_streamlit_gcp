@@ -1,8 +1,12 @@
 #python environment
 myenv/
+__pycache__/
 
 #very important to ignore any credentials
 *.json
 
 #misc
 .DS_Store
+
+#example images
+food-images/
