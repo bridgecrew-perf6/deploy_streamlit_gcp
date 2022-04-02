@@ -9,6 +9,11 @@ I've trained a fine-tuned EfficientNetB0 image classifer in Tensorflow on the fo
 - Install the [glcoud CLI](https://cloud.google.com/sdk/docs/install).
 - Trained Tensorflow model. This app performs inference using an image classifer trained on the [Food101 dataset](https://www.tensorflow.org/datasets/catalog/food101).
 
+## Note on repo structure
+- ['/app_code/'](/app_code/) contains code that defines Streamlit app, Docker container, and App Engine configuration
+- ['/gcloud_scripts/'](/gcloud_scripts/) contains shell scripts used to configure GCP project
+- ['/model/'](/model/) is a trained Tensorflow model that is deployed to GCP and used for inference.
+
 ## Setting up your Gcloud environment
 
 1. Clone this repo & setup python environment inside app directory:
@@ -20,7 +25,7 @@ source myenv/bin/activate
 pip install -r requirements.txt
 ```
 
-2. Train model. For convenience, I've uploaded a [copy](model) of the trained model to this repository. Alternatively, use the notebook to train a model.
+2. Train model. For convenience, I've uploaded a [copy](model) of the trained model to this repository.
 
 3. GCP project setup
 ```
@@ -78,7 +83,7 @@ make gcloud-deploy
 ```
 
 ## Next steps
-
+- Add support for multiple models
 - CI/CD support with Github Actions
 - Log app data
 
